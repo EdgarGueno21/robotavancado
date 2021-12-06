@@ -13,7 +13,6 @@ ${HOME_BTN_ADDCART}         xpath=//*[@id="add_to_cart"]/button
 ${HOME_BTN_CHECKOUT}        xpath=//*[@id="layer_cart"]//a[@title="Proceed to checkout"]
 
 *** Keywords ***
-#### Ações
 Adicionar o produto "${PRODUTO}" no carrinho
     Digitar o nome do produto "${PRODUTO}" no campo de pesquisa
     Clicar no botão pesquisar
