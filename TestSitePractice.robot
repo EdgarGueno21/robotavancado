@@ -11,3 +11,5 @@ Caso de Teste com PO 01: Remover Produtos do Carrinho
     Home.Adicionar o produto "t-shirt" no carrinho
     Carrinho.Excluir o produto do carrinho
     Carrinho.Conferir se o carrinho fica vazio
+
+#Teste GIT
