@@ -1,6 +1,18 @@
-stages:
-  - Acceptance Tests
+name: Robot Testing
 
+on:
+  pull_request:
+    branches: [ master, homol ]
+
+jobs:  
+   LintApi:
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/checkout@v2
+          with:
+             robot-files: Testes Resources
+             arguments-file: arguments.txt  
+             
 # Job Linux Fedora - execução dos testes sem docker
 WEB Testing in Chrome:
     stage: Acceptance Tests
